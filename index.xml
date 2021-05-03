@@ -8,6 +8,161 @@
     <language>zh-tw</language>
     <lastBuildDate>Sat, 01 May 2021 22:12:37 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>薄如蟬翼的光學元件——超穎介面之探討</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p7/</link>
+      <pubDate>Mon, 03 May 2021 13:18:38 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p7/</guid>
+      <description>超穎介面（metasurface）擁有體積小、可變性高等特性，因此被譽為是下個世代的光學元件。本研究首先探討組成超穎介面的最小單元——單元體（unit cell）在不同規格下的特性，接著進一步套用到梯度型超穎介面（gradient metasurfcae）及超穎透鏡（metalens），目標設計出一片高效率且無像差的超穎透鏡。不僅如此，除了正向聚焦的超穎透鏡，本研究還包含斜向聚焦的探討。ㄧ片比紙還薄的透鏡就能達到良好的斜向聚焦效果，實在是非常特殊的光學元件。</description>
+    </item>
+    
+    <item>
+      <title>探討類神經網路對於物理現象的預測及判斷</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p6/</link>
+      <pubDate>Mon, 03 May 2021 13:18:33 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p6/</guid>
+      <description>機器學習以及類神經網路等技術常被用於辨識、分類等工作，但較少運用於物理運動軌跡的預測及判斷，為了嘗試以類神經網路預測物理現象，本研究對於一維等加速度運動、單擺運動以及雙擺運動進行深度學習。使用 Vpython 進行運動的模擬輸出資料，並運用 Simbrain 軟體以及 Keras 的套件建構類神經網路。在實驗之中嘗試不同的輸入資料方式，包含輸入時間以預測軌跡、輸入一段連續的數值（如：位置）並以求出下一個數值（如：位置）為目標，為時序性的訓練方式；並且觀察不同的神經網路架構、神經元個數、訓練次數對於訓練結果的影響。在比較後，最後得到的結論為以時序性的訓練方式較能有效達到預測物理運動軌跡目標。</description>
+    </item>
+    
+    <item>
+      <title>渦電流傳動的運動分析</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p5/</link>
+      <pubDate>Mon, 03 May 2021 13:18:18 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p5/</guid>
+      <description>本研究利用馬達、鋁箔、永久磁鐵，製作渦電流離合器。當被馬達驅動的磁鐵在鋁箔前轉動，就可以在鋁箔上產生感應渦電流，即可以利用勞侖茲力驅動鋁箔所在的負載端。我們推導出這個轉動系統的運動方程式，並且考慮永久磁鐵周遭的磁場是不均勻的。我們利用 Python 的 Scipy.integrate 模組進行磁向量勢的積分並計算磁場，以及利用 Runge-Kutta 法進行運動方程式的數值解。我們針對驅動轉速、傳動距離、磁鐵間距以及磁鐵排列方向等參數進行實驗，並發現實驗與理論預測的趨勢相符。其中，我們可以透過改變調整傳動間距、或磁鐵間距來達到變速的效果。</description>
+    </item>
+    
+    <item>
+      <title>利用 CFD 模擬子再生器構造對史特林引擎再生器效率的影響</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p4/</link>
+      <pubDate>Mon, 03 May 2021 13:18:14 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p4/</guid>
+      <description>隨著環保意識抬頭，能源的來源不再僅僅是石化燃料，太陽能、地熱和核能都是新興的能源，而在發電過程中多數利用蒸氣渦輪機進行能量的轉換將蒸氣動能轉換成渦輪動能再利用電磁感應之原理產生電。在現今環境下史特林引擎的優點逐漸顯現，其中史特林引擎之熱效率為所有熱機中最高，在理想狀況下史特林引擎所使用的史特林循環之熱效率等於卡諾效率。在材料與工作流體的不理想條件的限制下，多數研究主要專注於其其中一個部件：再生器。當熱工作流體經過再生器再到冷端時，可以將熱暫時儲存在熱儲存介質中當冷端之工作流體再次回到熱端時即可從熱儲存介質中獲得熱能，藉此減少熱端的功耗。</description>
+    </item>
+    
+    <item>
+      <title>麥卡納姆輪行進間科學</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p3/</link>
+      <pubDate>Mon, 03 May 2021 13:18:11 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p3/</guid>
+      <description>本實驗利用 Arduino Mega2560 以及 tt 馬達搭配麥卡納姆輪所製作出的紅外線遙控車，研究麥卡納姆輪在各種移動情形（如：原地旋轉、橫移、迴轉……等）下的輪轉模式，探討麥卡納姆輪的運動模式，並與理論數值進行比較，從中推測造成誤差之原因。</description>
+    </item>
+    
+    <item>
+      <title>液滴在垂直振動液面上的互作用</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p2/</link>
+      <pubDate>Mon, 03 May 2021 13:18:08 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p2/</guid>
+      <description>當液滴滴落在一個靜止的液面上時，液滴可能會直接化入液面中，或是在液面上維持形狀一小段時間後塌陷化入油面，然而，若是令液面持續的垂直振動，則可以使在液面上的液滴維持跳動很長一段時間，在穩定情況下甚至可以維持數小時。而這些液滴之間的交互作用模式更為有趣，包括相互吸引、排斥，互繞、甚至是更特別的自我推進等。本研究使用矽油做為液體，專注於兩顆矽油滴之間的平衡距離，找出它們的成因與了解相關變因對平衡距離造成的影響。</description>
+    </item>
+    
+    <item>
+      <title>角度與障礙物對二維漏斗顆粒流流率影響及模型探討</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p1/</link>
+      <pubDate>Mon, 03 May 2021 13:18:05 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p1/</guid>
+      <description>本實驗探討二維漏斗內的顆粒流，以 BB 彈作為顆粒模擬顆粒流情形，並於自製的二維漏斗中做實驗，其中改變漏斗壁斜度與放置障礙物於漏斗中等變因，探討顆粒流的流率變化。並在顆粒流動中錄影，觀察流動時漏斗中顆粒的流向分布等情形。放置於 Tracker 分析障礙物附近的顆粒流動情形，並將不同斜度分析結果做比較。研究不同障礙物高度及斜度情況下顆粒流速和微觀顆粒的分布關係。並以 GeoGebra 將漏斗內情形以方程式的方式呈現，使內部情形清晰方便觀察。我們發現流率-障礙物位置圖可以分為上升、下降、平衡三個部分，且隨角度變化會產生許多種複雜的特殊情形。我們嘗試解釋流率-障礙物位置圖之各種現象，並提出理論用以推測障礙物高度變化導致的流速變化趨勢。</description>
+    </item>
+    
+    <item>
+      <title>調控FGFR的活性與分布，以最佳化頭頸癌之標靶治療</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b11/</link>
+      <pubDate>Mon, 03 May 2021 12:57:03 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b11/</guid>
+      <description>本研究旨在探討 FGFR 活性、分布與功能間的關係，以明瞭用 FGFR 作為癌症治療標靶的可能性。 受體酪氨酸激酶（Receptor tyrosine kinase, RTK） 是癌症標靶治療的主要標的，然而，RTK 中極重要的 FGFR 卻仍未被廣泛使用，我們懷疑這是因為 FGFR 與其他 RTK 有不同的作用模式與分布方式。因此，我們以頭頸部鱗狀上皮細胞株 SAS 為平台，觀察 FGFR 在細胞膜上的分佈；並探討 FGFR 是否透過異型合子（heterodimer）模式，影響細胞內訊息傳遞與細胞功能。
+透過不在細胞膜打洞的免疫螢光染色法，我們成功建立了可以有效觀察細胞膜上的 FGFR，且排除細胞內FGFR 訊號干擾的平台。我們進一步使用三種 FGFR3 mutants，發現 FGFR 在細胞膜上的分布比例受 functional domain 影響，以及 FGFR 可能會由外吐小體（exosome）分泌。未來我們將據此平台繼續探討 FGFR 應用於癌症標靶治療的終極目標。</description>
+    </item>
+    
+    <item>
+      <title>以生物資訊資料探勘技術探討 NDM beta-lactamase 抗藥性之結構與功能性演化模式預測</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b10/</link>
+      <pubDate>Mon, 03 May 2021 12:56:36 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b10/</guid>
+      <description>乙內醯胺酶（beta-lactamase）為細菌具有抗藥性最主要的機轉之一，但在施藥壓力下，蛋白質依其化學結構性質允許進行分子演化，進而增強其生物活性（水解能力）。透過收集對於該蛋白質序列結構已發表之相關文獻及分析所有相關之「功能性數據」（Kcat or Kcat/Km），建立龐大之生物資訊資料庫（包含 NCBI、SWISS Model 等）。此研究可針對同工蛋白質結構差異、蛋白質結構穩定性、蛋白質／受質（抗生素）分子間作用力、結構差異對於不同抗生素具有不同功能性等多樣性之數據分析。經初步探討發現存在一個可被預測的分析模式。其價值性在於，若在臨床上持續對特定抗藥性細菌施予某種抗生素，我們將有能力可預測該抗藥性蛋白質（酶）接續演化的方向。將以 3D 模式化和對抗藥性酵素的結構分析，對抗生素抗藥性的演化進行酵素解構，以便進行次世代藥物設計。
+目前有效抗生素的研發是遠落後於突變快速的細菌抗藥性，一個抗生素的研發成功耗時約 20 年，但細菌只需區區數年便演化出對抗策略，因此若能成功建立細菌演化路徑模型，將有助於解決細菌抗藥性的問題。臨床上的數據顯示抗生素的濫用會造成細菌演化速度增快，加快篩選具有抗藥性的細菌，其 DNA 序列會影響到細菌的結構和功能，同時結構也影響著其功能。</description>
+    </item>
+    
+    <item>
+      <title>探討抗高血壓藥物如何降低敗血症的致死率</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b9/</link>
+      <pubDate>Mon, 03 May 2021 12:56:33 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b9/</guid>
+      <description>過去已知敗血症患者使用 β 受體阻滯劑能有效改善心律、酸鹼參數、降低死亡率，在嚴重敗血症和敗血性休克的急性期，持續使用 β 受體阻滯劑可降低 90 天內的死亡率。然而，其中的分子機轉仍不明。我們先前利用健保資料庫進行大數據分析並以動物實驗驗證，發現 β 受體阻滯劑中的 Atenolol 能顯著減少敗血症的致死率。此研究中，我們以 LPS （脂多糖）作為敗血症誘導劑，並利用西方墨點法及逆轉錄聚合酶鏈式反應等生物技術，來探討其中可能的保護機轉，結果發現 Atenolol 可減緩肺部上皮細胞的 EMT（上皮間質轉換）及先天免疫巨噬細胞的過度活化。因此，Atenolol 似乎能減緩 LPS 造成肺部的傷害，未來有望應用至臨床，以克服敗血症所造成的高死亡率。</description>
+    </item>
+    
+    <item>
+      <title>建立應用個人基因與氣象資訊大數據的血壓標準化演算法</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b8/</link>
+      <pubDate>Mon, 03 May 2021 12:56:30 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b8/</guid>
+      <description>過去的研究發現氣溫變化致使血壓上升，是心血管疾病的危險因子。隨人們日常活動範圍擴大，在不同地點、不同天氣之下測得的血壓，應依氣溫與其他氣象因子校正後方可相互比較，並正確估算血壓因氣溫變化的上升幅度。本研究建立日常生活血壓標準化的演算法，使得在不同地點，不同天氣情況之下所測血壓能夠互相比較，亦可應用氣象預報數值，預測未來一周血壓的波動。我們首先結合從臺灣人體生物資料庫 121,070 位受訪者健康和基因型資料，與來自中央氣象局 823 座氣象站氣象觀測資料進行大數據分析。以多重線性迴歸模型建立血壓與年齡、性別、身體質量指數、菸酒習慣、有無高血壓疾病等背景因子之相關性。我們依此迴歸模型，導入中央氣象局即時與預測氣象資料，提供國人查詢依個人基因與即時或未來預測天氣估算後的血壓值，作為健康管理的依據。未來可望以加值網站 APP 形式呈現。</description>
+    </item>
+    
+    <item>
+      <title>健康新指標：SCFA 分析方法研究</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b7/</link>
+      <pubDate>Mon, 03 May 2021 12:56:26 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b7/</guid>
+      <description>SCFA （短鏈脂肪酸）在人體中具有重要生理功能，它可被腸道的上皮細胞吸收，降低炎症反應並增進人體免疫調節，有腸道健康新指標的意義。目前可查閱到定量分析 SCFA 的文獻，大多都是針對血液樣品，導致在尿液中各種 SCFA 的含量及比例都不太明確。本研究先用多種血液分析的方法進行篩選，而選用的方法有非常好的質譜分析標的，可惜無法使用在尿液分析，因此啟動方法改良的研究，經過添加 MgSO4 及 K2CO3 二個流程來分別克服尿液水分及 pH 值的問題，進而優化出一個可用在尿液分析的新方法。新方法包含了我們選用的血液分析方法樣品製作流程再加上創新部分，讓這樣好的質譜分析標的也可延伸應用在尿液 SCFA 的定量分析上。</description>
+    </item>
+    
+    <item>
+      <title>RNA 假結的結構探討</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b5/</link>
+      <pubDate>Mon, 03 May 2021 12:56:23 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b5/</guid>
+      <description>RNA 假結是病毒 RNA 鏈的重要特徵，部分鹼基互相配對，在轉譯時會造成密碼子位移，而新冠病毒的假結會造成密碼子重複讀取，進而錯過終止密碼子（UAA）使轉譯進行下去，這個現象被稱為計劃性核醣體框架位移（PRF），由於假結本身並不是那麼穩定，引此轉譯時有時會發生 PRF 有時不會，進而影響特殊蛋白質的產量，我們研究假結本身的穩定度，在此我們用 DNA handle 破壞 RNA 假結部分鹼基對，觀察是否會對穩定性造成影響，發現從 3 端破壞與完全不破壞相比，發現不穩定的結構比例大幅上升，因為結構不穩定，3 端破壞之 RNA 假結摺疊成穩定的結構時，其速率也會下降。</description>
+    </item>
+    
+    <item>
+      <title>鳳梨酵素透過活化自噬作用促進清除肝臟脂質堆積</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b4/</link>
+      <pubDate>Mon, 03 May 2021 12:56:20 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b4/</guid>
+      <description>本研究旨在確認鳳梨酵素在人體肝細胞株 Huh7 中是否具有抑制脂質的效果，並且找出其背後的機轉為何。由 MTT 實驗我們找到適合的鳳梨酵素濃度進行後續實驗，細胞培養中透過額外給予的油酸以模擬脂肪肝並給予鳳梨酵素處理。在 Nile Red 和 Oil Red O 染色法中都確認了鳳梨酵素會讓細胞內油滴堆積減少。隨後以西方墨點法偵測 LC3、p62、ATG5、ATG7、ULK1 等五種自噬作用指標蛋白各自的表現量隨鳳梨酵素處理的時間變化結果，並利用 Huh7（GFP-LC3）和 Acridine Orange 染色觀察自噬小體和自噬溶小體以了解自噬作用的進程。以上結果確認了鳳梨酵素可誘發自噬作用來增進脂質的降解，進而降低肝細胞內的脂肪堆積。</description>
+    </item>
+    
+    <item>
+      <title>人類冠狀病毒 HCoV-229E 在台灣的中和抗體盛行率調查</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b3/</link>
+      <pubDate>Mon, 03 May 2021 12:56:10 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b3/</guid>
+      <description>本研究目的在建立一株常見的人類冠狀病毒 HCoV-229E 在台灣的中和抗體盛行率。我們使用 Huh7 細胞株培養 HCoV-229E，再以中和試驗檢測 200 名受試者的血清，檢測血清中是否具有 229E 的中和抗體及該抗體的濃度，並分析影響這兩者的因素。結果發現，台灣人最早在小於 5 歲起就感染過 229E，血清陽性率及抗體濃度接只受到年齡影響，均隨著年齡的增加而提高。而巧合的是，抗體濃度較高的中年及老年族群，也是本次 COVID-19 疫情中最容易發生嚴重症狀的族群。</description>
+    </item>
+    
+    <item>
+      <title>探究神經對於棕色脂肪組織產熱及代謝之影響</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b2/</link>
+      <pubDate>Mon, 03 May 2021 12:56:07 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b2/</guid>
+      <description>不同於白色脂肪組織（white adipose tissue, WAT）在動物體內負責儲存能量，棕色脂肪組織（brown adipose tissue, BAT）和非顫抖性產熱（non-shivering thermogenesis, NST）息息相關，文獻指出 BAT 的作用受到交感神經的調控。我們在小鼠的 BAT 附近找到了數條支配神經，嘗試將其剔除後，進行低溫試驗（cold test）以及測量其攝食產熱效應（diet-induced thermogenesis, DIT），藉由觀察體溫的變化，了解神經對於棕色脂肪組織產熱的影響，最後觀察切除 BAT周圍神經束老鼠的體重、組織（BAT）重量、UCP-1 蛋白含量、組織切片有何區別，進而探究其生理上之意義及臨床應用之可行性，我們在研究中發現，小鼠剔除神經後，棕色脂肪組織會有萎縮及失去功能的現象，進而影響其代謝狀況，最終導致體重上升。</description>
+    </item>
+    
+    <item>
+      <title>激活函數對影像遮罩分割深度神經網路的影響</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b1/</link>
+      <pubDate>Mon, 03 May 2021 12:56:03 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b1/</guid>
+      <description>醫療影像分析自動化能夠節省醫生的判讀時間，並作為輔助醫生診斷的利器。利用深度學習進行影像分割的技術在近年蓬勃發展，本研究旨在改善模型分割的效果，採用公開的肝臟及腹部器官 CT 及 MRI 造影圖資料集，作為研究素材。研究過程中架構了兩個深層神經網路模型：Model 1：純粹 U-net 模型及 Model 2： ResNet34+U-net 模型，並透過調整各隱藏層的激活函數來觀察並改善腹腔影像的自動分割品質，以達到最佳化模型準確度的目的。</description>
+    </item>
+    
+    <item>
       <title>分子拓印修飾磁性奈米粒子萃取福壽螺卵中蝦紅素之探討</title>
       <link>https://serendipity-ckmsc37.github.io/works/chemistry/c4/</link>
       <pubDate>Mon, 03 May 2021 12:30:26 +0800</pubDate>

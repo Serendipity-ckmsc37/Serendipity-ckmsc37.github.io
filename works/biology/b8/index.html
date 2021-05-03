@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<title>建立應用個人基因與氣象資訊大數據的血壓標準化演算法 | Serendipity</title>
+	
+	<meta name="description" content="過去的研究發現氣溫變化致使血壓上升，是心血管疾病的危險因子。隨人們日常活動範圍擴大，在不同地點、不同天氣之下測得的血壓，應依氣溫與其他氣象因子校正後方可相互比較，並正確估算血壓因氣溫變化的上升幅度。本研究建立日常生活血壓標準化的演算法，使得在不同地點，不同天氣情況之下所測血壓能夠互相比較，亦可應用氣象預報數值，預測未來一周血壓的波動。我們首先結合從臺灣人體生物資料庫 121,070 位受訪者健康和基因型資料，與來自中央氣象局 823 座氣象站氣象觀測資料進行大數據分析。以多重線性迴歸模型建立血壓與年齡、性別、身體質量指數、菸酒習慣、有無高血壓疾病等背景因子之相關性。我們依此迴歸模型，導入中央氣象局即時與預測氣象資料，提供國人查詢依個人基因與即時或未來預測天氣估算後的血壓值，作為健康管理的依據。未來可望以加值網站 APP 形式呈現。" >
+	<link rel="canonical" href="https://serendipity-ckmsc37.github.io/works/biology/b8/" />
+	
+	
+	<meta property="og:title" content="建立應用個人基因與氣象資訊大數據的血壓標準化演算法" />
+<meta property="og:description" content="過去的研究發現氣溫變化致使血壓上升，是心血管疾病的危險因子。隨人們日常活動範圍擴大，在不同地點、不同天氣之下測得的血壓，應依氣溫與其他氣象因子校正後方可相互比較，並正確估算血壓因氣溫變化的上升幅度。本研究建立日常生活血壓標準化的演算法，使得在不同地點，不同天氣情況之下所測血壓能夠互相比較，亦可應用氣象預報數值，預測未來一周血壓的波動。我們首先結合從臺灣人體生物資料庫 121,070 位受訪者健康和基因型資料，與來自中央氣象局 823 座氣象站氣象觀測資料進行大數據分析。以多重線性迴歸模型建立血壓與年齡、性別、身體質量指數、菸酒習慣、有無高血壓疾病等背景因子之相關性。我們依此迴歸模型，導入中央氣象局即時與預測氣象資料，提供國人查詢依個人基因與即時或未來預測天氣估算後的血壓值，作為健康管理的依據。未來可望以加值網站 APP 形式呈現。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://serendipity-ckmsc37.github.io/works/biology/b8/" /><meta property="article:section" content="works" />
+<meta property="article:published_time" content="2021-05-03T12:56:30&#43;08:00" />
+<meta property="article:modified_time" content="2021-05-03T12:56:30&#43;08:00" />
+
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="建立應用個人基因與氣象資訊大數據的血壓標準化演算法"/>
+<meta name="twitter:description" content="過去的研究發現氣溫變化致使血壓上升，是心血管疾病的危險因子。隨人們日常活動範圍擴大，在不同地點、不同天氣之下測得的血壓，應依氣溫與其他氣象因子校正後方可相互比較，並正確估算血壓因氣溫變化的上升幅度。本研究建立日常生活血壓標準化的演算法，使得在不同地點，不同天氣情況之下所測血壓能夠互相比較，亦可應用氣象預報數值，預測未來一周血壓的波動。我們首先結合從臺灣人體生物資料庫 121,070 位受訪者健康和基因型資料，與來自中央氣象局 823 座氣象站氣象觀測資料進行大數據分析。以多重線性迴歸模型建立血壓與年齡、性別、身體質量指數、菸酒習慣、有無高血壓疾病等背景因子之相關性。我們依此迴歸模型，導入中央氣象局即時與預測氣象資料，提供國人查詢依個人基因與即時或未來預測天氣估算後的血壓值，作為健康管理的依據。未來可望以加值網站 APP 形式呈現。"/>
+
+
+	
+	
+	<link rel="stylesheet" href="https://serendipity-ckmsc37.github.io/bulma/bulma.d2b4cd6c86c7b69efb6aaac9e69a4fdcadfe163e3a040924ff704e6f7ee1cebc.css">
+	
+	<link rel="stylesheet" href="https://serendipity-ckmsc37.github.io/style.5ccf2ce8811b47cda7d848898f4adba85d6ab813e29a19cbf48755b322253a60.css">
+	<script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="/css/syntax.css" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<style>
+</style>
+</head>
+<body><header>
+	
+	<nav class="navbar is-primary">
+		<div class="navbar-brand">
+			<a href="/" class="navbar-item">
+				 <img src="/images/butterendipity.png"> 
+				<span class="logo">Serendipity</span>
+			</a>
+		</div>
+
+		<div class="navbar-menu">
+            <div class="navbar-start">
+                
+                <a href="/works" class="navbar-item">作品集</a>
+                
+                <a href="/categories" class="navbar-item">各科介紹</a>
+                
+                <a href="/schedule" class="navbar-item">日程</a>
+                
+                <a href="/about" class="navbar-item">關於我們</a>
+                
+            </div>
+            <div class="navbar-end">
+                
+                <a href="https://www.instagram.com/serendipity_ckmsc37th/" class="navbar-item is-hidden-touch" title="Instagram"><span class="icon"><i class='fab fa-instagram'></i></span></a>
+                
+                <a href="https://youtu.be/dQw4w9WgXcQ/" class="navbar-item is-hidden-touch" title="Youtube"><span class="icon"><i class='fab fa-youtube'></i></span></a>
+                
+            </div>
+        </div>
+	</nav>
+    
+    <section class="section">
+        <article class="message is-primary">
+            <div class="message-header">
+                <p>早安午安晚安！</p>
+            </div>
+            <div class="message-body">
+                這個網站還在施工，將會不定期更新，敬請關注！
+            </div>
+        </article>
+    </section>
+    
+	
+    <div id="hsj" class="hsj"></div>
+	<script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+        cheet('h s j', function () {
+            var img = document.createElement("img"); 
+ 
+            img.src = "https://serendipity-ckmsc37.github.io/images/hsj.jpg"; 
+            var src = document.getElementById("hsj"); 
+             
+            src.appendChild(img);
+            setTimeout(function(){
+			    console.log("黃聖傑萬歲！");
+			    src.removeChild(img);
+			}, 2000);
+        });
+    </script>
+</header><main>
+<section class="section">
+	<article>
+		<div class="columns is-centered">
+			<div class="column max-1000px">
+				<h1 class="title is-1">建立應用個人基因與氣象資訊大數據的血壓標準化演算法</h1>
+
+				<div class="columns">
+					
+					<div class="column is-half">
+						<img src="/images/butterendipity.png" alt=""/>
+					</div>
+					
+					<div class="column">
+						<div class="columns">
+							<div class="column">
+								<h6 class="title is-6"> 作者 </h6>
+							</div>
+							<div class="column">
+								
+								<p> 陳厚任 </p>
+								
+							</div>
+						</div>
+						
+						<div class="columns">
+							<div class="column">
+								<h6 class="title is-6"> 指導老師 </h6>
+							</div>
+							<div class="column">
+								
+								<p> 童禕珊 老師</p>
+								
+							</div>
+						</div>
+						
+						
+						<div class="columns">
+							<div class="column">
+								<h6 class="title is-6"> 指導教授 </h6>
+							</div>
+							<div class="column">
+								<p> 陳建勳 教授</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="content">
+					<h3 class="title is-3"> 作品摘要 </h3>
+					<p>過去的研究發現氣溫變化致使血壓上升，是心血管疾病的危險因子。隨人們日常活動範圍擴大，在不同地點、不同天氣之下測得的血壓，應依氣溫與其他氣象因子校正後方可相互比較，並正確估算血壓因氣溫變化的上升幅度。本研究建立日常生活血壓標準化的演算法，使得在不同地點，不同天氣情況之下所測血壓能夠互相比較，亦可應用氣象預報數值，預測未來一周血壓的波動。我們首先結合從臺灣人體生物資料庫 121,070 位受訪者健康和基因型資料，與來自中央氣象局 823 座氣象站氣象觀測資料進行大數據分析。以多重線性迴歸模型建立血壓與年齡、性別、身體質量指數、菸酒習慣、有無高血壓疾病等背景因子之相關性。我們依此迴歸模型，導入中央氣象局即時與預測氣象資料，提供國人查詢依個人基因與即時或未來預測天氣估算後的血壓值，作為健康管理的依據。未來可望以加值網站 APP 形式呈現。</p>
+
+				</div>
+
+				
+
+				
+
+				
+			</div>
+		</div>
+	</article>
+</section>
+
+        </main><footer class="footer">
+    <div class="content has-text-centered">
+        <p> 台北市立建國高級中學 第 37 屆數理資優班成果發表會 <a href="/">Serendipity</a> </p>
+    </div>
+</footer>
+</body>
+</html>

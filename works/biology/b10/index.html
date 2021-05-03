@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	
+	<title>以生物資訊資料探勘技術探討 NDM beta-lactamase 抗藥性之結構與功能性演化模式預測 | Serendipity</title>
+	
+	<meta name="description" content="乙內醯胺酶（beta-lactamase）為細菌具有抗藥性最主要的機轉之一，但在施藥壓力下，蛋白質依其化學結構性質允許進行分子演化，進而增強其生物活性（水解能力）。透過收集對於該蛋白質序列結構已發表之相關文獻及分析所有相關之「功能性數據」（Kcat or Kcat/Km），建立龐大之生物資訊資料庫（包含 NCBI、SWISS Model 等）。此研究可針對同工蛋白質結構差異、蛋白質結構穩定性、蛋白質／受質（抗生素）分子間作用力、結構差異對於不同抗生素具有不同功能性等多樣性之數據分析。經初步探討發現存在一個可被預測的分析模式。其價值性在於，若在臨床上持續對特定抗藥性細菌施予某種抗生素，我們將有能力可預測該抗藥性蛋白質（酶）接續演化的方向。將以 3D 模式化和對抗藥性酵素的結構分析，對抗生素抗藥性的演化進行酵素解構，以便進行次世代藥物設計。
+目前有效抗生素的研發是遠落後於突變快速的細菌抗藥性，一個抗生素的研發成功耗時約 20 年，但細菌只需區區數年便演化出對抗策略，因此若能成功建立細菌演化路徑模型，將有助於解決細菌抗藥性的問題。臨床上的數據顯示抗生素的濫用會造成細菌演化速度增快，加快篩選具有抗藥性的細菌，其 DNA 序列會影響到細菌的結構和功能，同時結構也影響著其功能。" >
+	<link rel="canonical" href="https://serendipity-ckmsc37.github.io/works/biology/b10/" />
+	
+	
+	<meta property="og:title" content="以生物資訊資料探勘技術探討 NDM beta-lactamase 抗藥性之結構與功能性演化模式預測" />
+<meta property="og:description" content="乙內醯胺酶（beta-lactamase）為細菌具有抗藥性最主要的機轉之一，但在施藥壓力下，蛋白質依其化學結構性質允許進行分子演化，進而增強其生物活性（水解能力）。透過收集對於該蛋白質序列結構已發表之相關文獻及分析所有相關之「功能性數據」（Kcat or Kcat/Km），建立龐大之生物資訊資料庫（包含 NCBI、SWISS Model 等）。此研究可針對同工蛋白質結構差異、蛋白質結構穩定性、蛋白質／受質（抗生素）分子間作用力、結構差異對於不同抗生素具有不同功能性等多樣性之數據分析。經初步探討發現存在一個可被預測的分析模式。其價值性在於，若在臨床上持續對特定抗藥性細菌施予某種抗生素，我們將有能力可預測該抗藥性蛋白質（酶）接續演化的方向。將以 3D 模式化和對抗藥性酵素的結構分析，對抗生素抗藥性的演化進行酵素解構，以便進行次世代藥物設計。
+目前有效抗生素的研發是遠落後於突變快速的細菌抗藥性，一個抗生素的研發成功耗時約 20 年，但細菌只需區區數年便演化出對抗策略，因此若能成功建立細菌演化路徑模型，將有助於解決細菌抗藥性的問題。臨床上的數據顯示抗生素的濫用會造成細菌演化速度增快，加快篩選具有抗藥性的細菌，其 DNA 序列會影響到細菌的結構和功能，同時結構也影響著其功能。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://serendipity-ckmsc37.github.io/works/biology/b10/" /><meta property="article:section" content="works" />
+<meta property="article:published_time" content="2021-05-03T12:56:36&#43;08:00" />
+<meta property="article:modified_time" content="2021-05-03T12:56:36&#43;08:00" />
+
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="以生物資訊資料探勘技術探討 NDM beta-lactamase 抗藥性之結構與功能性演化模式預測"/>
+<meta name="twitter:description" content="乙內醯胺酶（beta-lactamase）為細菌具有抗藥性最主要的機轉之一，但在施藥壓力下，蛋白質依其化學結構性質允許進行分子演化，進而增強其生物活性（水解能力）。透過收集對於該蛋白質序列結構已發表之相關文獻及分析所有相關之「功能性數據」（Kcat or Kcat/Km），建立龐大之生物資訊資料庫（包含 NCBI、SWISS Model 等）。此研究可針對同工蛋白質結構差異、蛋白質結構穩定性、蛋白質／受質（抗生素）分子間作用力、結構差異對於不同抗生素具有不同功能性等多樣性之數據分析。經初步探討發現存在一個可被預測的分析模式。其價值性在於，若在臨床上持續對特定抗藥性細菌施予某種抗生素，我們將有能力可預測該抗藥性蛋白質（酶）接續演化的方向。將以 3D 模式化和對抗藥性酵素的結構分析，對抗生素抗藥性的演化進行酵素解構，以便進行次世代藥物設計。
+目前有效抗生素的研發是遠落後於突變快速的細菌抗藥性，一個抗生素的研發成功耗時約 20 年，但細菌只需區區數年便演化出對抗策略，因此若能成功建立細菌演化路徑模型，將有助於解決細菌抗藥性的問題。臨床上的數據顯示抗生素的濫用會造成細菌演化速度增快，加快篩選具有抗藥性的細菌，其 DNA 序列會影響到細菌的結構和功能，同時結構也影響著其功能。"/>
+
+
+	
+	
+	<link rel="stylesheet" href="https://serendipity-ckmsc37.github.io/bulma/bulma.d2b4cd6c86c7b69efb6aaac9e69a4fdcadfe163e3a040924ff704e6f7ee1cebc.css">
+	
+	<link rel="stylesheet" href="https://serendipity-ckmsc37.github.io/style.5ccf2ce8811b47cda7d848898f4adba85d6ab813e29a19cbf48755b322253a60.css">
+	<script src="//cdn.rawgit.com/namuol/cheet.js/master/cheet.min.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="/css/syntax.css" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+	<style>
+</style>
+</head>
+<body><header>
+	
+	<nav class="navbar is-primary">
+		<div class="navbar-brand">
+			<a href="/" class="navbar-item">
+				 <img src="/images/butterendipity.png"> 
+				<span class="logo">Serendipity</span>
+			</a>
+		</div>
+
+		<div class="navbar-menu">
+            <div class="navbar-start">
+                
+                <a href="/works" class="navbar-item">作品集</a>
+                
+                <a href="/categories" class="navbar-item">各科介紹</a>
+                
+                <a href="/schedule" class="navbar-item">日程</a>
+                
+                <a href="/about" class="navbar-item">關於我們</a>
+                
+            </div>
+            <div class="navbar-end">
+                
+                <a href="https://www.instagram.com/serendipity_ckmsc37th/" class="navbar-item is-hidden-touch" title="Instagram"><span class="icon"><i class='fab fa-instagram'></i></span></a>
+                
+                <a href="https://youtu.be/dQw4w9WgXcQ/" class="navbar-item is-hidden-touch" title="Youtube"><span class="icon"><i class='fab fa-youtube'></i></span></a>
+                
+            </div>
+        </div>
+	</nav>
+    
+    <section class="section">
+        <article class="message is-primary">
+            <div class="message-header">
+                <p>早安午安晚安！</p>
+            </div>
+            <div class="message-body">
+                這個網站還在施工，將會不定期更新，敬請關注！
+            </div>
+        </article>
+    </section>
+    
+	
+    <div id="hsj" class="hsj"></div>
+	<script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+        cheet('h s j', function () {
+            var img = document.createElement("img"); 
+ 
+            img.src = "https://serendipity-ckmsc37.github.io/images/hsj.jpg"; 
+            var src = document.getElementById("hsj"); 
+             
+            src.appendChild(img);
+            setTimeout(function(){
+			    console.log("黃聖傑萬歲！");
+			    src.removeChild(img);
+			}, 2000);
+        });
+    </script>
+</header><main>
+<section class="section">
+	<article>
+		<div class="columns is-centered">
+			<div class="column max-1000px">
+				<h1 class="title is-1">以生物資訊資料探勘技術探討 NDM beta-lactamase 抗藥性之結構與功能性演化模式預測</h1>
+
+				<div class="columns">
+					
+					<div class="column is-half">
+						<img src="/images/butterendipity.png" alt=""/>
+					</div>
+					
+					<div class="column">
+						<div class="columns">
+							<div class="column">
+								<h6 class="title is-6"> 作者 </h6>
+							</div>
+							<div class="column">
+								
+								<p> 鄭翊禾 </p>
+								
+							</div>
+						</div>
+						
+						<div class="columns">
+							<div class="column">
+								<h6 class="title is-6"> 指導老師 </h6>
+							</div>
+							<div class="column">
+								
+								<p> 童禕珊 老師</p>
+								
+							</div>
+						</div>
+						
+						
+						<div class="columns">
+							<div class="column">
+								<h6 class="title is-6"> 指導教授 </h6>
+							</div>
+							<div class="column">
+								<p> 吳瑞裕 教授</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="content">
+					<h3 class="title is-3"> 作品摘要 </h3>
+					<p>乙內醯胺酶（beta-lactamase）為細菌具有抗藥性最主要的機轉之一，但在施藥壓力下，蛋白質依其化學結構性質允許進行分子演化，進而增強其生物活性（水解能力）。透過收集對於該蛋白質序列結構已發表之相關文獻及分析所有相關之「功能性數據」（Kcat or Kcat/Km），建立龐大之生物資訊資料庫（包含 NCBI、SWISS Model 等）。此研究可針對同工蛋白質結構差異、蛋白質結構穩定性、蛋白質／受質（抗生素）分子間作用力、結構差異對於不同抗生素具有不同功能性等多樣性之數據分析。經初步探討發現存在一個可被預測的分析模式。其價值性在於，若在臨床上持續對特定抗藥性細菌施予某種抗生素，我們將有能力可預測該抗藥性蛋白質（酶）接續演化的方向。將以 3D 模式化和對抗藥性酵素的結構分析，對抗生素抗藥性的演化進行酵素解構，以便進行次世代藥物設計。<br>
+目前有效抗生素的研發是遠落後於突變快速的細菌抗藥性，一個抗生素的研發成功耗時約 20 年，但細菌只需區區數年便演化出對抗策略，因此若能成功建立細菌演化路徑模型，將有助於解決細菌抗藥性的問題。臨床上的數據顯示抗生素的濫用會造成細菌演化速度增快，加快篩選具有抗藥性的細菌，其 DNA 序列會影響到細菌的結構和功能，同時結構也影響著其功能。</p>
+
+				</div>
+
+				
+
+				
+
+				
+			</div>
+		</div>
+	</article>
+</section>
+
+        </main><footer class="footer">
+    <div class="content has-text-centered">
+        <p> 台北市立建國高級中學 第 37 屆數理資優班成果發表會 <a href="/">Serendipity</a> </p>
+    </div>
+</footer>
+</body>
+</html>

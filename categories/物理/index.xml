@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>物理 on Serendipity</title>
+    <link>https://serendipity-ckmsc37.github.io/categories/%E7%89%A9%E7%90%86/</link>
+    <description>Recent content in 物理 on Serendipity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 03 May 2021 13:18:38 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/categories/%E7%89%A9%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>薄如蟬翼的光學元件——超穎介面之探討</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p7/</link>
+      <pubDate>Mon, 03 May 2021 13:18:38 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p7/</guid>
+      <description>超穎介面（metasurface）擁有體積小、可變性高等特性，因此被譽為是下個世代的光學元件。本研究首先探討組成超穎介面的最小單元——單元體（unit cell）在不同規格下的特性，接著進一步套用到梯度型超穎介面（gradient metasurfcae）及超穎透鏡（metalens），目標設計出一片高效率且無像差的超穎透鏡。不僅如此，除了正向聚焦的超穎透鏡，本研究還包含斜向聚焦的探討。ㄧ片比紙還薄的透鏡就能達到良好的斜向聚焦效果，實在是非常特殊的光學元件。</description>
+    </item>
+    
+    <item>
+      <title>探討類神經網路對於物理現象的預測及判斷</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p6/</link>
+      <pubDate>Mon, 03 May 2021 13:18:33 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p6/</guid>
+      <description>機器學習以及類神經網路等技術常被用於辨識、分類等工作，但較少運用於物理運動軌跡的預測及判斷，為了嘗試以類神經網路預測物理現象，本研究對於一維等加速度運動、單擺運動以及雙擺運動進行深度學習。使用 Vpython 進行運動的模擬輸出資料，並運用 Simbrain 軟體以及 Keras 的套件建構類神經網路。在實驗之中嘗試不同的輸入資料方式，包含輸入時間以預測軌跡、輸入一段連續的數值（如：位置）並以求出下一個數值（如：位置）為目標，為時序性的訓練方式；並且觀察不同的神經網路架構、神經元個數、訓練次數對於訓練結果的影響。在比較後，最後得到的結論為以時序性的訓練方式較能有效達到預測物理運動軌跡目標。</description>
+    </item>
+    
+    <item>
+      <title>渦電流傳動的運動分析</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p5/</link>
+      <pubDate>Mon, 03 May 2021 13:18:18 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p5/</guid>
+      <description>本研究利用馬達、鋁箔、永久磁鐵，製作渦電流離合器。當被馬達驅動的磁鐵在鋁箔前轉動，就可以在鋁箔上產生感應渦電流，即可以利用勞侖茲力驅動鋁箔所在的負載端。我們推導出這個轉動系統的運動方程式，並且考慮永久磁鐵周遭的磁場是不均勻的。我們利用 Python 的 Scipy.integrate 模組進行磁向量勢的積分並計算磁場，以及利用 Runge-Kutta 法進行運動方程式的數值解。我們針對驅動轉速、傳動距離、磁鐵間距以及磁鐵排列方向等參數進行實驗，並發現實驗與理論預測的趨勢相符。其中，我們可以透過改變調整傳動間距、或磁鐵間距來達到變速的效果。</description>
+    </item>
+    
+    <item>
+      <title>利用 CFD 模擬子再生器構造對史特林引擎再生器效率的影響</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p4/</link>
+      <pubDate>Mon, 03 May 2021 13:18:14 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p4/</guid>
+      <description>隨著環保意識抬頭，能源的來源不再僅僅是石化燃料，太陽能、地熱和核能都是新興的能源，而在發電過程中多數利用蒸氣渦輪機進行能量的轉換將蒸氣動能轉換成渦輪動能再利用電磁感應之原理產生電。在現今環境下史特林引擎的優點逐漸顯現，其中史特林引擎之熱效率為所有熱機中最高，在理想狀況下史特林引擎所使用的史特林循環之熱效率等於卡諾效率。在材料與工作流體的不理想條件的限制下，多數研究主要專注於其其中一個部件：再生器。當熱工作流體經過再生器再到冷端時，可以將熱暫時儲存在熱儲存介質中當冷端之工作流體再次回到熱端時即可從熱儲存介質中獲得熱能，藉此減少熱端的功耗。</description>
+    </item>
+    
+    <item>
+      <title>麥卡納姆輪行進間科學</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p3/</link>
+      <pubDate>Mon, 03 May 2021 13:18:11 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p3/</guid>
+      <description>本實驗利用 Arduino Mega2560 以及 tt 馬達搭配麥卡納姆輪所製作出的紅外線遙控車，研究麥卡納姆輪在各種移動情形（如：原地旋轉、橫移、迴轉……等）下的輪轉模式，探討麥卡納姆輪的運動模式，並與理論數值進行比較，從中推測造成誤差之原因。</description>
+    </item>
+    
+    <item>
+      <title>液滴在垂直振動液面上的互作用</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p2/</link>
+      <pubDate>Mon, 03 May 2021 13:18:08 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p2/</guid>
+      <description>當液滴滴落在一個靜止的液面上時，液滴可能會直接化入液面中，或是在液面上維持形狀一小段時間後塌陷化入油面，然而，若是令液面持續的垂直振動，則可以使在液面上的液滴維持跳動很長一段時間，在穩定情況下甚至可以維持數小時。而這些液滴之間的交互作用模式更為有趣，包括相互吸引、排斥，互繞、甚至是更特別的自我推進等。本研究使用矽油做為液體，專注於兩顆矽油滴之間的平衡距離，找出它們的成因與了解相關變因對平衡距離造成的影響。</description>
+    </item>
+    
+    <item>
+      <title>角度與障礙物對二維漏斗顆粒流流率影響及模型探討</title>
+      <link>https://serendipity-ckmsc37.github.io/works/physic/p1/</link>
+      <pubDate>Mon, 03 May 2021 13:18:05 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/physic/p1/</guid>
+      <description>本實驗探討二維漏斗內的顆粒流，以 BB 彈作為顆粒模擬顆粒流情形，並於自製的二維漏斗中做實驗，其中改變漏斗壁斜度與放置障礙物於漏斗中等變因，探討顆粒流的流率變化。並在顆粒流動中錄影，觀察流動時漏斗中顆粒的流向分布等情形。放置於 Tracker 分析障礙物附近的顆粒流動情形，並將不同斜度分析結果做比較。研究不同障礙物高度及斜度情況下顆粒流速和微觀顆粒的分布關係。並以 GeoGebra 將漏斗內情形以方程式的方式呈現，使內部情形清晰方便觀察。我們發現流率-障礙物位置圖可以分為上升、下降、平衡三個部分，且隨角度變化會產生許多種複雜的特殊情形。我們嘗試解釋流率-障礙物位置圖之各種現象，並提出理論用以推測障礙物高度變化導致的流速變化趨勢。</description>
+    </item>
+    
+  </channel>
+</rss>
