@@ -8,6 +8,45 @@
     <language>zh-tw</language>
     <lastBuildDate>Sat, 01 May 2021 22:12:37 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>分子拓印修飾磁性奈米粒子萃取福壽螺卵中蝦紅素之探討</title>
+      <link>https://serendipity-ckmsc37.github.io/works/chemistry/c4/</link>
+      <pubDate>Mon, 03 May 2021 12:30:26 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/chemistry/c4/</guid>
+      <description>本研究主要以分子拓印二氧化矽修飾磁性奈米粒子，製作蝦紅素之專一性固相萃取粒子。
+蝦紅素是一種有機色素，已被證實具有許多療效，具高經濟價值。現今的蝦紅素產品，多使用液相萃取藻類或酵母，耗費大量有機溶劑，使成本增加，也造成環境危害，且純度難以控制；但若是採用專一性強的固相萃取，就可以解決以上問題。本研究自福壽卵中萃取蝦紅素，除了維護環境，也有益人類健康。
+目前已得出在 2.4μL 四乙基矽烷、30μL 氨水、192μL 奈米磁鐵懸浮液、700μL 0.1mg/mL 的蝦紅素乙醇標準品、260μL 的 99.5% 乙醇，於 2mL 之微量離心管內合成 8 小時，再使用丙酮和乙醇清洗掉模板，並且在萃取標的物濃度高的情況下萃取 60 分鐘，為最佳萃取粒子合成條件。</description>
+    </item>
+    
+    <item>
+      <title>奈米銀團簇之螢光增強機構應用於有機氣體感測之研製</title>
+      <link>https://serendipity-ckmsc37.github.io/works/chemistry/c3/</link>
+      <pubDate>Mon, 03 May 2021 12:30:23 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/chemistry/c3/</guid>
+      <description>本研究的目標是利用奈米金屬的特殊性質，以及其與螢光分子的交互作用來製作小型的氣體感測裝置。研究內容分為三個部分，其一為「有機相螢光複合材料之合成」，藉由一系列實驗探討最佳的合成方法與材料配製，以最佳化感測性能；其二為「微小化自組裝感測裝置之製作」，設計製作感測裝置以及輔助感測的電路、程式，並不斷的修正與改良；其三為「氣體感測數據分析」，以自組裝感測裝置進行有機氣體的感測，分析數據並解釋感測裝置與不同氣體的反應結果，深入了解此種材料的感測性質，以期在未來做出更有效的應用。</description>
+    </item>
+    
+    <item>
+      <title>以深共熔溶劑合成氧化鈰觸媒應用於二氧化碳轉換</title>
+      <link>https://serendipity-ckmsc37.github.io/works/chemistry/c2/</link>
+      <pubDate>Mon, 03 May 2021 12:30:19 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/chemistry/c2/</guid>
+      <description>本研究以氯化膽鹼與尿素混合而得的深共熔溶劑進行氧化鈰觸媒的合成並應用於二氧化碳與甲醇反應產生碳酸二甲酯的催化反應。實驗中以觸媒合成溫度以及水與深共熔溶劑的比例為變因，做出 6 組觸媒進行合成碳酸二甲酯的反應，再利用氣相層析儀分析反應的產量，並以 X 光繞射儀及拉曼光譜儀鑑定分析二氧化鈰，結果為 120°C、無添加水所合成的觸媒活性最好。</description>
+    </item>
+    
+    <item>
+      <title>水能糧交織分析系統：以機器學習法評估水能糧鏈結</title>
+      <link>https://serendipity-ckmsc37.github.io/works/chemistry/c1/</link>
+      <pubDate>Mon, 03 May 2021 12:30:16 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/chemistry/c1/</guid>
+      <description>臺灣屬於海島型國家，自古以來無論在水資源、能源、糧食（以下簡稱水能糧）等方面均較其他國家缺乏。因此，本研究希望能夠確實評估臺灣在水能糧等資源的實際情況，並以機器學習法改良評估方法。
+本研究以兩大方法評估臺灣及世界的水能糧資源。一為複迴歸評估模型，首先以趨勢線及相關係數，搭配系統設計觀察水能糧資源消長趨勢與其關聯性，再以機器學習法的模型改善評估方法；二為 FAO 分類評析模型，為國際農糧組織（Food and Agriculture Organization of the United States, FAO）於 2014 年提出的「水資源、能源、糧食、勞工、資本（以下簡稱水能糧勞資）」壓力指數的快速評析法，首先先以系統設計將國家分類以及指標評估的步驟進行方法分析，再以機器學習的方法加強及改善 FAO 分類評析模型不成熟之處。</description>
+    </item>
+    
+    <item>
       <title>利用星系旋轉特徵及組成探討星系赫羅圖之資料點分布特性</title>
       <link>https://serendipity-ckmsc37.github.io/works/geoscience/g2/</link>
       <pubDate>Mon, 03 May 2021 12:25:22 +0800</pubDate>
