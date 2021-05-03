@@ -15,3 +15,9 @@
 .max-1000px {
     max-width: 1000px;
 }
+
+.pagination-link.is-current {
+	background-color: #838F2C;
+	border-color: #838F2C;
+	color: #fff;
+}
