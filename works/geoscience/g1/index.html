@@ -3,23 +3,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 	
-	<title>以隨機雜訊生成循環影像 | Serendipity</title>
+	<title>以空氣中微粒濃度對於不同波長可見光穿透率的影響 | Serendipity</title>
 	
-	<meta name="description" content="在影音平台上播放長時間的音樂影片時，常會搭配一些畫面：有些的是自然景象的畫面，有些是人工設計的循環畫面。然而，前者通常難以取得長時間的取樣，來回播放更會造成美感上的破壞（想像一下海浪來回捲的感覺），後者又容易使觀賞者 感到無聊。因此，我決定設計一種演算法，透過連續的梯度雜訊（gradient noise）來生成隨機又可以循環的影像，嘗試彌補以上兩種音樂影像的不足， 並且達成美觀且能節省影像檔案大小的目的。" >
-	<link rel="canonical" href="https://serendipity-ckmsc37.github.io/works/informatic/i8/" />
+	<meta name="description" content="本實驗第一個目標是觀察光線強度隨著微粒濃度的增加而衰減的情形。我們讓白熾燈的光通過充滿微粒的黑暗空間，並觀察光譜的變化情形，得知光譜型峰值會隨著微粒增加而衰減。接著是微粒對於相異波長的散射強度的不同。將一個放入微粒的封閉容器作為實驗器材，觀察三種顏色 LED 燈光穿過容器後的光譜。我們得到光譜峰值衰減程度會因為波長有所不同。最後我們認為光線衰減是散射所致，且紅色的散射量相較其他兩個較低。並且根據波長和微粒直徑的比值推測其應該屬於的散射型態。" >
+	<link rel="canonical" href="https://serendipity-ckmsc37.github.io/works/geoscience/g1/" />
 	
 	
-	<meta property="og:title" content="以隨機雜訊生成循環影像" />
-<meta property="og:description" content="在影音平台上播放長時間的音樂影片時，常會搭配一些畫面：有些的是自然景象的畫面，有些是人工設計的循環畫面。然而，前者通常難以取得長時間的取樣，來回播放更會造成美感上的破壞（想像一下海浪來回捲的感覺），後者又容易使觀賞者 感到無聊。因此，我決定設計一種演算法，透過連續的梯度雜訊（gradient noise）來生成隨機又可以循環的影像，嘗試彌補以上兩種音樂影像的不足， 並且達成美觀且能節省影像檔案大小的目的。" />
+	<meta property="og:title" content="以空氣中微粒濃度對於不同波長可見光穿透率的影響" />
+<meta property="og:description" content="本實驗第一個目標是觀察光線強度隨著微粒濃度的增加而衰減的情形。我們讓白熾燈的光通過充滿微粒的黑暗空間，並觀察光譜的變化情形，得知光譜型峰值會隨著微粒增加而衰減。接著是微粒對於相異波長的散射強度的不同。將一個放入微粒的封閉容器作為實驗器材，觀察三種顏色 LED 燈光穿過容器後的光譜。我們得到光譜峰值衰減程度會因為波長有所不同。最後我們認為光線衰減是散射所致，且紅色的散射量相較其他兩個較低。並且根據波長和微粒直徑的比值推測其應該屬於的散射型態。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://serendipity-ckmsc37.github.io/works/informatic/i8/" /><meta property="article:section" content="works" />
-<meta property="article:published_time" content="2021-05-03T12:24:04&#43;08:00" />
-<meta property="article:modified_time" content="2021-05-03T12:24:04&#43;08:00" />
+<meta property="og:url" content="https://serendipity-ckmsc37.github.io/works/geoscience/g1/" /><meta property="article:section" content="works" />
+<meta property="article:published_time" content="2021-05-03T12:25:18&#43;08:00" />
+<meta property="article:modified_time" content="2021-05-03T12:25:18&#43;08:00" />
 
 
 	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="以隨機雜訊生成循環影像"/>
-<meta name="twitter:description" content="在影音平台上播放長時間的音樂影片時，常會搭配一些畫面：有些的是自然景象的畫面，有些是人工設計的循環畫面。然而，前者通常難以取得長時間的取樣，來回播放更會造成美感上的破壞（想像一下海浪來回捲的感覺），後者又容易使觀賞者 感到無聊。因此，我決定設計一種演算法，透過連續的梯度雜訊（gradient noise）來生成隨機又可以循環的影像，嘗試彌補以上兩種音樂影像的不足， 並且達成美觀且能節省影像檔案大小的目的。"/>
+<meta name="twitter:title" content="以空氣中微粒濃度對於不同波長可見光穿透率的影響"/>
+<meta name="twitter:description" content="本實驗第一個目標是觀察光線強度隨著微粒濃度的增加而衰減的情形。我們讓白熾燈的光通過充滿微粒的黑暗空間，並觀察光譜的變化情形，得知光譜型峰值會隨著微粒增加而衰減。接著是微粒對於相異波長的散射強度的不同。將一個放入微粒的封閉容器作為實驗器材，觀察三種顏色 LED 燈光穿過容器後的光譜。我們得到光譜峰值衰減程度會因為波長有所不同。最後我們認為光線衰減是散射所致，且紅色的散射量相較其他兩個較低。並且根據波長和微粒直徑的比值推測其應該屬於的散射型態。"/>
 
 
 	
@@ -114,12 +114,12 @@
 	<article>
 		<div class="columns is-centered">
 			<div class="column max-1000px">
-				<h1 class="title is-1">以隨機雜訊生成循環影像</h1>
+				<h1 class="title is-1">以空氣中微粒濃度對於不同波長可見光穿透率的影響</h1>
 
 				<div class="columns">
 					
-					<div class="column is-two-thirds">
-						<img src="image.gif" alt=""/>
+					<div class="column is-half">
+						<img src="/images/butterendipity.png" alt=""/>
 					</div>
 					
 					<div class="column">
@@ -129,7 +129,9 @@
 							</div>
 							<div class="column">
 								
-								<p> 王褕立 </p>
+								<p> 陳湛宇 </p>
+								
+								<p> 廖奕翔 </p>
 								
 							</div>
 						</div>
@@ -139,7 +141,7 @@
 								<h6 class="title is-6"> 指導老師 </h6>
 							</div>
 							<div class="column">
-								<p> 林淑玲 老師</p>
+								<p> 葉昭松 老師</p>
 							</div>
 						</div>
 						
@@ -149,24 +151,14 @@
 
 				<div class="content">
 					<h3 class="title is-3"> 作品摘要 </h3>
-					<p>在影音平台上播放長時間的音樂影片時，常會搭配一些畫面：有些的是自然景象的畫面，有些是人工設計的循環畫面。然而，前者通常難以取得長時間的取樣，來回播放更會造成美感上的破壞（想像一下海浪來回捲的感覺），後者又容易使觀賞者 感到無聊。因此，我決定設計一種演算法，透過連續的梯度雜訊（gradient noise）來生成隨機又可以循環的影像，嘗試彌補以上兩種音樂影像的不足， 並且達成美觀且能節省影像檔案大小的目的。</p>
+					<p>本實驗第一個目標是觀察光線強度隨著微粒濃度的增加而衰減的情形。我們讓白熾燈的光通過充滿微粒的黑暗空間，並觀察光譜的變化情形，得知光譜型峰值會隨著微粒增加而衰減。接著是微粒對於相異波長的散射強度的不同。將一個放入微粒的封閉容器作為實驗器材，觀察三種顏色 LED 燈光穿過容器後的光譜。我們得到光譜峰值衰減程度會因為波長有所不同。最後我們認為光線衰減是散射所致，且紅色的散射量相較其他兩個較低。並且根據波長和微粒直徑的比值推測其應該屬於的散射型態。</p>
 
 				</div>
 
 				
 
 				
-				<hr>
-				<h3 class="title is-3"> 成發簡報 </h3>
-				<div class="pptfile">
-					<embed src="ppt.pdf" width="800px" height="600px"/>
-				</div>
-				
 
-				
-				<hr>
-				<h3 class="title is-3"> 成發影片 </h3>
-				<iframe width="800" height="450" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="成發影片" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				
 			</div>
 		</div>

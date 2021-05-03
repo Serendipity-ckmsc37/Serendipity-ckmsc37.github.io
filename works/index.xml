@@ -8,6 +8,33 @@
     <language>zh-tw</language>
     <lastBuildDate>Sat, 01 May 2021 22:19:21 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/works/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>利用星系旋轉特徵及組成探討星系赫羅圖之資料點分布特性</title>
+      <link>https://serendipity-ckmsc37.github.io/works/geoscience/g2/</link>
+      <pubDate>Mon, 03 May 2021 12:25:22 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/geoscience/g2/</guid>
+      <description>浩瀚無垠的宇宙中，星系扮演了基本的組成單位，是探究宇宙的重要途徑。1910 代，天文學家埃納・赫茨普龍和亨利・羅素提出了赫羅圖（H–R diagram）──以光譜型為橫軸，光度（或絕對星等）為縱軸，將恆星的資料點繪於圖上，可顯示出一明顯帶狀分布，稱為主序帶（Main sequence）；後續也發展出以星團赫羅圖作為星團年齡指標的相關方式。而恆星、星團皆為星系的成員，因此我們嘗試取得天文資料庫中的觀測數據，將星系的觀測資料同樣以赫羅圖方式繪製，發現一明顯的帶狀分布，趨勢與恆星赫羅圖之主序帶相反。接著我們利用恆星、氣體旋轉特性，以及金屬度的繪圖，嘗試分析不同種類星系的特徵及建立彼此間的關係，並解釋它們在星系赫羅圖中的分布特性。</description>
+    </item>
+    
+    <item>
+      <title>以空氣中微粒濃度對於不同波長可見光穿透率的影響</title>
+      <link>https://serendipity-ckmsc37.github.io/works/geoscience/g1/</link>
+      <pubDate>Mon, 03 May 2021 12:25:18 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/geoscience/g1/</guid>
+      <description>本實驗第一個目標是觀察光線強度隨著微粒濃度的增加而衰減的情形。我們讓白熾燈的光通過充滿微粒的黑暗空間，並觀察光譜的變化情形，得知光譜型峰值會隨著微粒增加而衰減。接著是微粒對於相異波長的散射強度的不同。將一個放入微粒的封閉容器作為實驗器材，觀察三種顏色 LED 燈光穿過容器後的光譜。我們得到光譜峰值衰減程度會因為波長有所不同。最後我們認為光線衰減是散射所致，且紅色的散射量相較其他兩個較低。並且根據波長和微粒直徑的比值推測其應該屬於的散射型態。</description>
+    </item>
+    
+    <item>
+      <title>以隨機雜訊生成循環影像</title>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i8/</link>
+      <pubDate>Mon, 03 May 2021 12:24:04 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i8/</guid>
+      <description>在影音平台上播放長時間的音樂影片時，常會搭配一些畫面：有些的是自然景象的畫面，有些是人工設計的循環畫面。然而，前者通常難以取得長時間的取樣，來回播放更會造成美感上的破壞（想像一下海浪來回捲的感覺），後者又容易使觀賞者 感到無聊。因此，我決定設計一種演算法，透過連續的梯度雜訊（gradient noise）來生成隨機又可以循環的影像，嘗試彌補以上兩種音樂影像的不足， 並且達成美觀且能節省影像檔案大小的目的。</description>
+    </item>
+    
+    <item>
       <title>以 RNN 模型實現樂曲的生成</title>
       <link>https://serendipity-ckmsc37.github.io/works/informatic/i7/</link>
       <pubDate>Mon, 03 May 2021 12:20:21 +0800</pubDate>
@@ -149,15 +176,6 @@
       
       <guid>https://serendipity-ckmsc37.github.io/works/biology/b6/</guid>
       <description>生物網路由許多不同的基因或蛋白質等節點組成的，而在節點和節點之間的連線代表其交互作用。我們利用阮雪芬實驗室找到的肺癌存活相關 lncRNA 作為治療性生物標記，以生物網路預測具抗癌潛力的藥物。我們發現蛋白質交互作用網路中，最短路 徑(proximity)可量化藥物有效性，若藥物標靶和 lncRNA 相關蛋白的 proximity 越小，藥物越有抗癌效果。我們比較多種演算法所算出的 proximity 及其 預測癌症藥物的準確度，發現許多方法都有一定的預測準確度，而且合適的權重網路可使預測準確度提升。我們發現有些預測出來有潛力的藥物 (proximity 低的藥物)，在臨床上目前並未治療並非癌症治療藥物肺癌，但對肺癌存活相關 lncRNA 的proximity 都很低，如 tamoxifen, ciprofloxacin, colchicine，但過去且都有研究發現它們有治療肺癌或癌症的可能性。我們的研究結果發現 proximity 可 評估藥物抗癌潛力，日後或許可賦予藥物新的適應症，為癌症治療藥物提供新選擇。</description>
-    </item>
-    
-    <item>
-      <title>以隨機雜訊生成循環影像</title>
-      <link>https://serendipity-ckmsc37.github.io/works/informatic/i8/</link>
-      <pubDate>Sat, 01 May 2021 22:23:04 +0800</pubDate>
-      
-      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i8/</guid>
-      <description>在影音平台上播放長時間的音樂影片時，常會搭配一些畫面：有些的是自然景象的畫面，有些是人工設計的循環畫面。然而，前者通常難以取得長時間的取樣，來回播放更會造成美感上的破壞（想像一下海浪來回捲的感覺），後者又容易使觀賞者 感到無聊。因此，我決定設計一種演算法，透過連續的梯度雜訊（gradient noise）來生成隨機又可以循環的影像，嘗試彌補以上兩種音樂影像的不足， 並且達成美觀且能節省影像檔案大小的目的。</description>
     </item>
     
   </channel>
