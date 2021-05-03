@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 02 May 2021 20:52:07 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/categories/%E7%94%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>以肺癌存活相關 lncRNA 的蛋白質交互作用網路分析探討老藥新用之演算法</title>
-      <link>https://serendipity-ckmsc37.github.io/works/b6/</link>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b6/</link>
       <pubDate>Sun, 02 May 2021 20:52:07 +0800</pubDate>
       
-      <guid>https://serendipity-ckmsc37.github.io/works/b6/</guid>
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b6/</guid>
       <description>生物網路由許多不同的基因或蛋白質等節點組成的，而在節點和節點之間的連線代表其交互作用。我們利用阮雪芬實驗室找到的肺癌存活相關 lncRNA 作為治療性生物標記，以生物網路預測具抗癌潛力的藥物。我們發現蛋白質交互作用網路中，最短路 徑(proximity)可量化藥物有效性，若藥物標靶和 lncRNA 相關蛋白的 proximity 越小，藥物越有抗癌效果。我們比較多種演算法所算出的 proximity 及其 預測癌症藥物的準確度，發現許多方法都有一定的預測準確度，而且合適的權重網路可使預測準確度提升。我們發現有些預測出來有潛力的藥物 (proximity 低的藥物)，在臨床上目前並未治療並非癌症治療藥物肺癌，但對肺癌存活相關 lncRNA 的proximity 都很低，如 tamoxifen, ciprofloxacin, colchicine，但過去且都有研究發現它們有治療肺癌或癌症的可能性。我們的研究結果發現 proximity 可 評估藥物抗癌潛力，日後或許可賦予藥物新的適應症，為癌症治療藥物提供新選擇。</description>
     </item>
     

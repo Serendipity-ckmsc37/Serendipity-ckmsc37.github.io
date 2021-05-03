@@ -8,11 +8,81 @@
     <language>zh-tw</language>
     <lastBuildDate>Sat, 01 May 2021 22:12:37 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>圓扇大飯店</title>
+      <link>https://serendipity-ckmsc37.github.io/works/math/m7/</link>
+      <pubDate>Mon, 03 May 2021 11:11:34 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/math/m7/</guid>
+      <description>在一個風光明媚的早晨，我們發現公園裡的灑水器灑水模式很浪費水。我們想用數學的方式配置灑水器的位置，來達到能完全覆蓋草皮，又能省水的目的，因此我們決定研究這個主題。
+若灑水器圓心在頂點，則噴灑範圍變為以頂點角度為圓心角之扇形。若圓心在邊，則噴灑範圍變為半圓。其餘則為圓形。最小覆蓋圓稱 BCC，最小覆蓋半圓稱 BCSC，最小覆蓋扇形稱 BCS。三者最小者稱 BS，並找出 BS 的圓心位置及大小。其方法如下：
+ 定義在三角形中每一個點用的覆蓋圖。 找出不同圓心下，最小覆蓋使用的半徑。 用代表全部三角形的圖討論所有情況，找出全部三角形的最小覆蓋。  此結論不僅能應用於灑水器，亦可使用於基地台、軍用雷達，定能將建造成本壓低許多！</description>
+    </item>
+    
+    <item>
+      <title>環狀圖形上的相遇機率</title>
+      <link>https://serendipity-ckmsc37.github.io/works/math/m6/</link>
+      <pubDate>Mon, 03 May 2021 10:58:10 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/math/m6/</guid>
+      <description>「在一個具有 $n$￼個頂點的環狀圖形上，有兩人 A、B 分別在兩個不同的頂點上。設 A、B 兩人之間的距離為 $d$￼條邊，兩人每次移動時，可選擇向左或向右移動（不可留在原地不動），且每次都是移動至相鄰頂點，兩人皆移動 $m$￼次。能否求出兩人在移動過程中，曾在圖形中的任何一個頂點上相遇的機率？」本研究利用矩陣來探討此問題，試圖找出求相遇機率的計算方法，而最後不僅以歸納出了轉移矩陣以及「初始狀態轉換矩陣」的規律性，並透過程式語言寫出了輸入 $n, d, m$￼即可得到轉移機率的程式，另外也在研究的過程中發現了許多關於求出矩陣的有趣性質。</description>
+    </item>
+    
+    <item>
+      <title>分數疊代連天邊，速解循環與收斂</title>
+      <link>https://serendipity-ckmsc37.github.io/works/math/m5/</link>
+      <pubDate>Mon, 03 May 2021 10:53:39 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/math/m5/</guid>
+      <description>假設一個分子與分母皆為一元一次方程式的分數函數 $\frac{ax + b}{cx + d}$，其中 $a, b, c, d$￼皆為常數， $x$￼為變數，例如 $f(x) = \frac{x - 1}{x + 1}$￼，代入 $x$￼後得 $f(x)$￼，將 $x$￼再以 $f(x)$￼代入，得 $f(f(x))$￼，重複動作，此時發現 $x$￼可能在多次後循環回最初的 $x$￼，也可能收斂至某一定值或發散至無限，本研究旨在尋找以上三種情況時， $a, b, c, d$￼之間的關係，以及代入幾次剛好循環與不斷代入後的收斂值之速解。</description>
+    </item>
+    
+    <item>
+      <title>倍數開車</title>
+      <link>https://serendipity-ckmsc37.github.io/works/math/m4/</link>
+      <pubDate>Mon, 03 May 2021 10:51:47 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/math/m4/</guid>
+      <description>本研究利用觀察規律、代數證明以及使用電腦程式來解決不同數倍數交互作用的座標上問題。首先，為解決原問題，分別討論數對中兩個數分別除以四的餘數關係不同的各種情況，在其中一種，利用代數解出題目要求的性質，接下來再延伸問題為轉不同角度，並利用類似方法即可求出性質。在延伸立體的過程中遇到問題，決定先以比較簡化的版本：定義平面固定方向的問題來解定義公倍數轉方向的定義，並以討論的方式研究出固定多個方向時的座標變化。</description>
+    </item>
+    
+    <item>
+      <title>桌曆問題衍伸出的結合數討論</title>
+      <link>https://serendipity-ckmsc37.github.io/works/math/m3/</link>
+      <pubDate>Mon, 03 May 2021 10:48:47 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/math/m3/</guid>
+      <description>「在立方體的每一面上填上一個個位數字，如果想要以兩個填上數字的正立方體來表示日期，即這兩個正立方體要能表示出 $1$ 到 $31$ 當中的所有的正整數，則這兩個正立方體個別的六個面上應分別要填上哪六個數字呢？」這道名為「製作桌曆日期立方體」的益智問題引起了我們的興趣。透過腦筋急轉彎的方式，這道題目有唯一解。我們嘗試將題目改變並且延伸到 $n$￼個 $m$￼面體，並且用不同的自定義運算方式 $f, g, k$￼進行操作及運算，究竟會有什麼樣的結果呢？</description>
+    </item>
+    
+    <item>
+      <title>循環賽程的設計</title>
+      <link>https://serendipity-ckmsc37.github.io/works/math/m2/</link>
+      <pubDate>Mon, 03 May 2021 10:42:02 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/math/m2/</guid>
+      <description>研究在有偶數 $2n$ 個隊伍，有 $2n-1$ 個不同的場地、$2n-1$ 個不同的時段，任兩隊之間皆須恰對戰一次，且任一隊在每一個場地各戰一次、在每個時段各戰一次，在此情況下，對戰表的總情形數（這種組合設計同 Room square，是研究的重點）。
+主要的研究項目有：
+ 找到可行的算法以算出 $n$ 不大時的 Room square 可能數 估計或解出 Room square 可能數的一般情形  研究是透過 Room square 由兩個對稱拉丁方陣構成的這個性質來進行，透過計算這種方陣的數量及了解怎麼樣才可使兩個方陣滿足條件以組合出 Room square。</description>
+    </item>
+    
+    <item>
+      <title>看診總等待人數最大值之探討</title>
+      <link>https://serendipity-ckmsc37.github.io/works/math/m1/</link>
+      <pubDate>Mon, 03 May 2021 10:28:03 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/math/m1/</guid>
+      <description>醫院採用事先掛號，並在現場報到後列入等待名單。掛號順序決定預訂看診順序，而因報到的順序不同，產生實際看診順序。本研究想了解在已知看診人數及實際看診順序時，每位病人所可能等待人數的最大值及其總和。
+首先，我舉了 $n = 3$ 及 $n = 4$ 的所有實際看診順序，及其所對應的最大等待人數及最大總等待人數，並畫出流程圖幫自己充分掌握每個例子的進行過程。
+接著，我將所有看診者分成「準時者」、「一般的遲到者」及「特例的遲到者」，找出可能影響不同類型看診者的變因，及其於特定條件下的最大等待人數。
+最後，我研究 $n$ 個看診者中有 $x$￼個遲到者的狀況，有了先前在每位看診者的最大等待人數的結論，我將所有看診者加起來，得到最大總等待人數的最大值。</description>
+    </item>
+    
+    <item>
       <title>以肺癌存活相關 lncRNA 的蛋白質交互作用網路分析探討老藥新用之演算法</title>
-      <link>https://serendipity-ckmsc37.github.io/works/b6/</link>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b6/</link>
       <pubDate>Sun, 02 May 2021 20:52:07 +0800</pubDate>
       
-      <guid>https://serendipity-ckmsc37.github.io/works/b6/</guid>
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b6/</guid>
       <description>生物網路由許多不同的基因或蛋白質等節點組成的，而在節點和節點之間的連線代表其交互作用。我們利用阮雪芬實驗室找到的肺癌存活相關 lncRNA 作為治療性生物標記，以生物網路預測具抗癌潛力的藥物。我們發現蛋白質交互作用網路中，最短路 徑(proximity)可量化藥物有效性，若藥物標靶和 lncRNA 相關蛋白的 proximity 越小，藥物越有抗癌效果。我們比較多種演算法所算出的 proximity 及其 預測癌症藥物的準確度，發現許多方法都有一定的預測準確度，而且合適的權重網路可使預測準確度提升。我們發現有些預測出來有潛力的藥物 (proximity 低的藥物)，在臨床上目前並未治療並非癌症治療藥物肺癌，但對肺癌存活相關 lncRNA 的proximity 都很低，如 tamoxifen, ciprofloxacin, colchicine，但過去且都有研究發現它們有治療肺癌或癌症的可能性。我們的研究結果發現 proximity 可 評估藥物抗癌潛力，日後或許可賦予藥物新的適應症，為癌症治療藥物提供新選擇。</description>
     </item>
     
@@ -36,10 +106,10 @@
     
     <item>
       <title>以隨機雜訊生成循環影像</title>
-      <link>https://serendipity-ckmsc37.github.io/works/i8/</link>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i8/</link>
       <pubDate>Sat, 01 May 2021 22:23:04 +0800</pubDate>
       
-      <guid>https://serendipity-ckmsc37.github.io/works/i8/</guid>
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i8/</guid>
       <description>在影音平台上播放長時間的音樂影片時，常會搭配一些畫面：有些的是自然景象的畫面，有些是人工設計的循環畫面。然而，前者通常難以取得長時間的取樣，來回播放更會造成美感上的破壞（想像一下海浪來回捲的感覺），後者又容易使觀賞者 感到無聊。因此，我決定設計一種演算法，透過連續的梯度雜訊（gradient noise）來生成隨機又可以循環的影像，嘗試彌補以上兩種音樂影像的不足， 並且達成美觀且能節省影像檔案大小的目的。</description>
     </item>
     
