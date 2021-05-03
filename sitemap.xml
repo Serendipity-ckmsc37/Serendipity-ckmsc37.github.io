@@ -2,11 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://serendipity-ckmsc37.github.io/categories/</loc>
-    <lastmod>2021-05-03T13:18:38+08:00</lastmod>
+    <loc>https://serendipity-ckmsc37.github.io/categories/%E6%95%B8%E5%AD%B8/</loc>
+    <lastmod>2021-05-03T14:32:52+08:00</lastmod>
+  </url><url>
+    <loc>https://serendipity-ckmsc37.github.io/categories/%E8%B3%87%E8%A8%8A/</loc>
+    <lastmod>2021-05-03T14:32:44+08:00</lastmod>
+  </url><url>
+    <loc>https://serendipity-ckmsc37.github.io/categories/%E7%94%9F%E7%89%A9/</loc>
+    <lastmod>2021-05-03T14:32:38+08:00</lastmod>
+  </url><url>
+    <loc>https://serendipity-ckmsc37.github.io/categories/%E5%9C%B0%E7%A7%91/</loc>
+    <lastmod>2021-05-03T14:32:32+08:00</lastmod>
+  </url><url>
+    <loc>https://serendipity-ckmsc37.github.io/categories/%E5%8C%96%E5%AD%B8/</loc>
+    <lastmod>2021-05-03T14:32:26+08:00</lastmod>
   </url><url>
     <loc>https://serendipity-ckmsc37.github.io/categories/%E7%89%A9%E7%90%86/</loc>
-    <lastmod>2021-05-03T13:18:38+08:00</lastmod>
+    <lastmod>2021-05-03T14:32:19+08:00</lastmod>
+  </url><url>
+    <loc>https://serendipity-ckmsc37.github.io/categories/</loc>
+    <lastmod>2021-05-03T14:29:58+08:00</lastmod>
   </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/physic/p7/</loc>
     <lastmod>2021-05-03T13:18:38+08:00</lastmod>
@@ -28,9 +43,6 @@
   </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/physic/p1/</loc>
     <lastmod>2021-05-03T13:18:05+08:00</lastmod>
-  </url><url>
-    <loc>https://serendipity-ckmsc37.github.io/categories/%E7%94%9F%E7%89%A9/</loc>
-    <lastmod>2021-05-03T12:57:03+08:00</lastmod>
   </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/biology/b11/</loc>
     <lastmod>2021-05-03T12:57:03+08:00</lastmod>
@@ -65,9 +77,6 @@
     <loc>https://serendipity-ckmsc37.github.io/works/chemistry/c4/</loc>
     <lastmod>2021-05-03T12:30:26+08:00</lastmod>
   </url><url>
-    <loc>https://serendipity-ckmsc37.github.io/categories/%E5%8C%96%E5%AD%B8/</loc>
-    <lastmod>2021-05-03T12:30:26+08:00</lastmod>
-  </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/chemistry/c3/</loc>
     <lastmod>2021-05-03T12:30:23+08:00</lastmod>
   </url><url>
@@ -80,16 +89,10 @@
     <loc>https://serendipity-ckmsc37.github.io/works/geoscience/g2/</loc>
     <lastmod>2021-05-03T12:25:22+08:00</lastmod>
   </url><url>
-    <loc>https://serendipity-ckmsc37.github.io/categories/%E5%9C%B0%E7%A7%91/</loc>
-    <lastmod>2021-05-03T12:25:22+08:00</lastmod>
-  </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/geoscience/g1/</loc>
     <lastmod>2021-05-03T12:25:18+08:00</lastmod>
   </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/informatic/i8/</loc>
-    <lastmod>2021-05-03T12:24:04+08:00</lastmod>
-  </url><url>
-    <loc>https://serendipity-ckmsc37.github.io/categories/%E8%B3%87%E8%A8%8A/</loc>
     <lastmod>2021-05-03T12:24:04+08:00</lastmod>
   </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/informatic/i7/</loc>
@@ -114,9 +117,6 @@
     <lastmod>2021-05-03T12:07:46+08:00</lastmod>
   </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/math/m7/</loc>
-    <lastmod>2021-05-03T11:11:34+08:00</lastmod>
-  </url><url>
-    <loc>https://serendipity-ckmsc37.github.io/categories/%E6%95%B8%E5%AD%B8/</loc>
     <lastmod>2021-05-03T11:11:34+08:00</lastmod>
   </url><url>
     <loc>https://serendipity-ckmsc37.github.io/works/math/m6/</loc>
