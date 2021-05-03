@@ -8,6 +8,71 @@
     <language>zh-tw</language>
     <lastBuildDate>Sat, 01 May 2021 22:12:37 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>以 RNN 模型實現樂曲的生成</title>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i7/</link>
+      <pubDate>Mon, 03 May 2021 12:20:21 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i7/</guid>
+      <description>於 2018 年被提出的「PerformanceRNN」是一個專門用於生成音樂演奏的遞歸類神經網路，訓練時會將樂曲解析成數值各異的不同事件「詞彙」的組合，其特點是可以還原演奏者在演奏時所展現出的表現力。本研究在訓練此模型時以訓練資料中某些事件的分布方式作為「控制訊號」同時輸入模型，如音符密度、音程分布等，嘗試使訓練好的模型能在接收到控制訊號後以符合其訊號所要求的特徵來生成音樂，並比較不同種類的控制訊號間的異同。</description>
+    </item>
+    
+    <item>
+      <title>利用卷積神經網路和生成對抗網路實現表情辨識與生成</title>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i6/</link>
+      <pubDate>Mon, 03 May 2021 12:18:36 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i6/</guid>
+      <description>影像辨識日益普及，我們想學習神經網路並利用卷積神經網路來進行各種人臉的表情辨識和人臉生成。辨識的部分，我們選擇了六種表情（anger, fear, happiness, neutral, sadness, surprise），經過 CNN 卷積神經網路訓練之後，我們研究最佳模型的準確率是 88%。我們也利用生成對抗網路（GAN），生成了不同表情的照片。為了提升卷積神經網路的準確率，我們打算增加我們的資料量，但是網路上的資料找起來沒那麼簡單，所以我們打算利用生成對抗網路生成的照片，放入卷積神經網路訓練資料中。最終結果，生成對抗網路做出來的圖片很真實，卷積神經網路的準確率也有提升。</description>
+    </item>
+    
+    <item>
+      <title>從單人到雙人的貪吃蛇競賽</title>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i5/</link>
+      <pubDate>Mon, 03 May 2021 12:16:25 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i5/</guid>
+      <description>你是否有聽過貪吃蛇這個遊戲？你是否有玩過這款經典的手機遊戲？現在的網路越來越發達，進而出現了非常多的電腦遊戲，但以人類而言沒辦法每個遊戲都玩到專精，也沒有時間可以一直訓練。我們希望利用一些演算法以及人工智慧深度網路技術訓練模型來實作出貪吃蛇競賽的機器人，並比較兩者的差別、強弱等。在研究中，我們利用 Python 及 Keras 套件創建模型，並參考網路上其他人寫的強化學習模型，經修改其架構、細節，製作出一個貪吃蛇遊戲的強化學習模型。最後比對不同演算法及強化學習的表現，並找到是否有些適合這遊戲的策略，以及強化學習是否適合使用在這個遊戲之中。</description>
+    </item>
+    
+    <item>
+      <title>用 Deep Q-Learning（DQN）實作 Generals.io 的機器人</title>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i4/</link>
+      <pubDate>Mon, 03 May 2021 12:13:25 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i4/</guid>
+      <description>Generals.io 是一款線上實時攻城掠地的遊戲（下圖），玩家要在不清楚對手動向的情況下擴張自己的領土，養成盡可能多的兵力，並攻陷其他對手的首都，成為最後一個活下來的人。我希望能訓練一隻深度學習的機器人，讓它能夠自主遊玩 Generals.io，並經由學習來更加精通這遊戲。在訓練方法上，我使用強化學習（Reinforcement Learning）中的 DQN（Deep Q-Learning）方法來訓練它，用卷積神經網路（CNN）來提取遊戲給予機器人的資訊之特徵，並使用此網站本身提供的 Bot API 來將其連接上網頁，使它能在網路上遊玩與訓練。</description>
+    </item>
+    
+    <item>
+      <title>以深度學習建立辨識鳥類網站</title>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i3/</link>
+      <pubDate>Mon, 03 May 2021 12:12:16 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i3/</guid>
+      <description>近日休閒旅遊發達，許多人前往山林抒發平日繁忙中壓抑的心情，然而並非每人都對生物的分辨非常精通，失去了欣賞中部分的樂趣，本研究旨在研究以深度學習為基礎，架設出一個可以精準的辨識出不同的鳥類的網站。在多次修改模型的架構與參數後，模型的準確率達到 80%，並架設出一個簡單的網站成品，可供大家利用。若能進一步以網頁爬蟲等方法增加資料量，也可以增加更多鳥類，抑或是應用在不同東西上。</description>
+    </item>
+    
+    <item>
+      <title>以可解釋性深度學習模型診斷憂鬱症及預測重要性穿顱磁刺激療效</title>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i2/</link>
+      <pubDate>Mon, 03 May 2021 12:10:58 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i2/</guid>
+      <description>重複性穿顱磁刺激（rTMS）是一個非侵入性、具有前景的憂鬱症療法。在此研究中，我們提出了一套使用可解釋性神經網路來分析腦磁波（MEG）的方法，不僅可以輔助醫師診斷憂鬱症，還可以預測重複性穿顱磁刺激對憂鬱症病患之療效。對於資料處理，我們使用快速傅立葉變及 Signal Space Separation。對於可解釋性的神經網路，我們將我們提出的模型與 EEGNet 比較，我們的模型得到了較好的結果。此外，分析並視覺化神經網路中的參數後，我們還可得到大腦活動的指標可供未來的研究及臨床使用。</description>
+    </item>
+    
+    <item>
+      <title>用對抗生成神經網路實現特殊風格文字生成</title>
+      <link>https://serendipity-ckmsc37.github.io/works/informatic/i1/</link>
+      <pubDate>Mon, 03 May 2021 12:07:46 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/informatic/i1/</guid>
+      <description>在生活中文字用途廣泛，由於中文是表意文字，字體風格差異更為明顯。另外，在小時候我們時常會夢想能夠有機器人模仿我們的字幫我們寫作業。因此我們決定嘗試進行文字間風格轉換。
+本研究實驗電腦字體之間、手寫字體之間及兩者之間的風格轉換，模型的部分使用 CycleGAN、StyleGAN，並透過 U-net、及在判別器中加入中文字辨識實驗是否能讓轉換結果更好，以及測試使用 Few shot GAN 觀察對於減少資料量後是否仍能維持我們預期的結果。
+預處理先將電腦字體檔案轉換為多個文字的 png 檔案，手寫字體則撰寫介面化程式蒐集各種手寫字，再應不同的需求製作不同的電腦、手寫字體風格的資料集，之後撰寫模型，並在不同的實驗中比較加入以上變因及進行實驗，比較各模型生成結果的差異。</description>
+    </item>
+    
+    <item>
       <title>圓扇大飯店</title>
       <link>https://serendipity-ckmsc37.github.io/works/math/m7/</link>
       <pubDate>Mon, 03 May 2021 11:11:34 +0800</pubDate>
