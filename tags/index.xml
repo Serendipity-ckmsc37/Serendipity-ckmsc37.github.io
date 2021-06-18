@@ -5,6 +5,10 @@
     <link>https://serendipity-ckmsc37.github.io/tags/</link>
     <description>Recent content in Tags on 台北市立建國高級中學 第37屆數理資優班成果發表會 Serendipity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="https://serendipity-ckmsc37.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    
+	<atom:link href="https://serendipity-ckmsc37.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

@@ -6,7 +6,11 @@
     <description>Recent content in 生物科 on 台北市立建國高級中學 第37屆數理資優班成果發表會 Serendipity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 03 May 2021 14:32:38 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/categories/%E7%94%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 14:32:38 +0800</lastBuildDate>
+    
+	<atom:link href="https://serendipity-ckmsc37.github.io/categories/%E7%94%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>調控FGFR的活性與分布，以最佳化頭頸癌之標靶治療</title>
       <link>https://serendipity-ckmsc37.github.io/works/biology/b11/</link>
@@ -55,6 +59,15 @@
     </item>
     
     <item>
+      <title>以肺癌存活相關 lncRNA 的蛋白質交互作用網路分析探討老藥新用之演算法</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b6/</link>
+      <pubDate>Mon, 03 May 2021 12:56:24 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b6/</guid>
+      <description>生物網路由許多不同的基因或蛋白質等節點組成的，而在節點和節點之間的連線代表其交互作用。我們利用阮雪芬實驗室找到的肺癌存活相關 lncRNA 作為治療性生物標記，以生物網路預測具抗癌潛力的藥物。我們發現蛋白質交互作用網路中，最短路 徑(proximity)可量化藥物有效性，若藥物標靶和 lncRNA 相關蛋白的 proximity 越小，藥物越有抗癌效果。我們比較多種演算法所算出的 proximity 及其 預測癌症藥物的準確度，發現許多方法都有一定的預測準確度，而且合適的權重網路可使預測準確度提升。我們發現有些預測出來有潛力的藥物 (proximity 低的藥物)，在臨床上目前並未治療並非癌症治療藥物肺癌，但對肺癌存活相關 lncRNA 的proximity 都很低，如 tamoxifen, ciprofloxacin, colchicine，但過去且都有研究發現它們有治療肺癌或癌症的可能性。我們的研究結果發現 proximity 可 評估藥物抗癌潛力，日後或許可賦予藥物新的適應症，為癌症治療藥物提供新選擇。</description>
+    </item>
+    
+    <item>
       <title>RNA 假結的結構探討</title>
       <link>https://serendipity-ckmsc37.github.io/works/biology/b5/</link>
       <pubDate>Mon, 03 May 2021 12:56:23 +0800</pubDate>
@@ -97,15 +110,6 @@
       
       <guid>https://serendipity-ckmsc37.github.io/works/biology/b1/</guid>
       <description>醫療影像分析自動化能夠節省醫生的判讀時間，並作為輔助醫生診斷的利器。利用深度學習進行影像分割的技術在近年蓬勃發展，本研究旨在改善模型分割的效果，採用公開的肝臟及腹部器官 CT 及 MRI 造影圖資料集，作為研究素材。研究過程中架構了兩個深層神經網路模型：Model 1：純粹 U-net 模型及 Model 2： ResNet34+U-net 模型，並透過調整各隱藏層的激活函數來觀察並改善腹腔影像的自動分割品質，以達到最佳化模型準確度的目的。</description>
-    </item>
-    
-    <item>
-      <title>以肺癌存活相關 lncRNA 的蛋白質交互作用網路分析探討老藥新用之演算法</title>
-      <link>https://serendipity-ckmsc37.github.io/works/biology/b6/</link>
-      <pubDate>Sun, 02 May 2021 20:52:07 +0800</pubDate>
-      
-      <guid>https://serendipity-ckmsc37.github.io/works/biology/b6/</guid>
-      <description>生物網路由許多不同的基因或蛋白質等節點組成的，而在節點和節點之間的連線代表其交互作用。我們利用阮雪芬實驗室找到的肺癌存活相關 lncRNA 作為治療性生物標記，以生物網路預測具抗癌潛力的藥物。我們發現蛋白質交互作用網路中，最短路 徑(proximity)可量化藥物有效性，若藥物標靶和 lncRNA 相關蛋白的 proximity 越小，藥物越有抗癌效果。我們比較多種演算法所算出的 proximity 及其 預測癌症藥物的準確度，發現許多方法都有一定的預測準確度，而且合適的權重網路可使預測準確度提升。我們發現有些預測出來有潛力的藥物 (proximity 低的藥物)，在臨床上目前並未治療並非癌症治療藥物肺癌，但對肺癌存活相關 lncRNA 的proximity 都很低，如 tamoxifen, ciprofloxacin, colchicine，但過去且都有研究發現它們有治療肺癌或癌症的可能性。我們的研究結果發現 proximity 可 評估藥物抗癌潛力，日後或許可賦予藥物新的適應症，為癌症治療藥物提供新選擇。</description>
     </item>
     
   </channel>

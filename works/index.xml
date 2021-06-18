@@ -6,7 +6,11 @@
     <description>Recent content in 作品集 on 台北市立建國高級中學 第37屆數理資優班成果發表會 Serendipity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 01 May 2021 22:19:21 +0800</lastBuildDate><atom:link href="https://serendipity-ckmsc37.github.io/works/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 22:19:21 +0800</lastBuildDate>
+    
+	<atom:link href="https://serendipity-ckmsc37.github.io/works/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>利用 CFD 模擬子再生器構造對史特林引擎再生器效率的影響</title>
       <link>https://serendipity-ckmsc37.github.io/works/physic/p7/</link>
@@ -115,6 +119,15 @@
       
       <guid>https://serendipity-ckmsc37.github.io/works/biology/b7/</guid>
       <description>SCFA （短鏈脂肪酸）在人體中具有重要生理功能，它可被腸道的上皮細胞吸收，降低炎症反應並增進人體免疫調節，有腸道健康新指標的意義。目前可查閱到定量分析 SCFA 的文獻，大多都是針對血液樣品，導致在尿液中各種 SCFA 的含量及比例都不太明確。本研究先用多種血液分析的方法進行篩選，而選用的方法有非常好的質譜分析標的，可惜無法使用在尿液分析，因此啟動方法改良的研究，經過添加 MgSO4 及 K2CO3 二個流程來分別克服尿液水分及 pH 值的問題，進而優化出一個可用在尿液分析的新方法。新方法包含了我們選用的血液分析方法樣品製作流程再加上創新部分，讓這樣好的質譜分析標的也可延伸應用在尿液 SCFA 的定量分析上。</description>
+    </item>
+    
+    <item>
+      <title>以肺癌存活相關 lncRNA 的蛋白質交互作用網路分析探討老藥新用之演算法</title>
+      <link>https://serendipity-ckmsc37.github.io/works/biology/b6/</link>
+      <pubDate>Mon, 03 May 2021 12:56:24 +0800</pubDate>
+      
+      <guid>https://serendipity-ckmsc37.github.io/works/biology/b6/</guid>
+      <description>生物網路由許多不同的基因或蛋白質等節點組成的，而在節點和節點之間的連線代表其交互作用。我們利用阮雪芬實驗室找到的肺癌存活相關 lncRNA 作為治療性生物標記，以生物網路預測具抗癌潛力的藥物。我們發現蛋白質交互作用網路中，最短路 徑(proximity)可量化藥物有效性，若藥物標靶和 lncRNA 相關蛋白的 proximity 越小，藥物越有抗癌效果。我們比較多種演算法所算出的 proximity 及其 預測癌症藥物的準確度，發現許多方法都有一定的預測準確度，而且合適的權重網路可使預測準確度提升。我們發現有些預測出來有潛力的藥物 (proximity 低的藥物)，在臨床上目前並未治療並非癌症治療藥物肺癌，但對肺癌存活相關 lncRNA 的proximity 都很低，如 tamoxifen, ciprofloxacin, colchicine，但過去且都有研究發現它們有治療肺癌或癌症的可能性。我們的研究結果發現 proximity 可 評估藥物抗癌潛力，日後或許可賦予藥物新的適應症，為癌症治療藥物提供新選擇。</description>
     </item>
     
     <item>
@@ -361,15 +374,6 @@
 首先，我舉了 $n = 3$ 及 $n = 4$ 的所有實際看診順序，及其所對應的最大等待人數及最大總等待人數，並畫出流程圖幫自己充分掌握每個例子的進行過程。
 接著，我將所有看診者分成「準時者」、「一般的遲到者」及「特例的遲到者」，找出可能影響不同類型看診者的變因，及其於特定條件下的最大等待人數。
 最後，我研究 $n$ 個看診者中有 $x$￼個遲到者的狀況，有了先前在每位看診者的最大等待人數的結論，我將所有看診者加起來，得到最大總等待人數的最大值。</description>
-    </item>
-    
-    <item>
-      <title>以肺癌存活相關 lncRNA 的蛋白質交互作用網路分析探討老藥新用之演算法</title>
-      <link>https://serendipity-ckmsc37.github.io/works/biology/b6/</link>
-      <pubDate>Sun, 02 May 2021 20:52:07 +0800</pubDate>
-      
-      <guid>https://serendipity-ckmsc37.github.io/works/biology/b6/</guid>
-      <description>生物網路由許多不同的基因或蛋白質等節點組成的，而在節點和節點之間的連線代表其交互作用。我們利用阮雪芬實驗室找到的肺癌存活相關 lncRNA 作為治療性生物標記，以生物網路預測具抗癌潛力的藥物。我們發現蛋白質交互作用網路中，最短路 徑(proximity)可量化藥物有效性，若藥物標靶和 lncRNA 相關蛋白的 proximity 越小，藥物越有抗癌效果。我們比較多種演算法所算出的 proximity 及其 預測癌症藥物的準確度，發現許多方法都有一定的預測準確度，而且合適的權重網路可使預測準確度提升。我們發現有些預測出來有潛力的藥物 (proximity 低的藥物)，在臨床上目前並未治療並非癌症治療藥物肺癌，但對肺癌存活相關 lncRNA 的proximity 都很低，如 tamoxifen, ciprofloxacin, colchicine，但過去且都有研究發現它們有治療肺癌或癌症的可能性。我們的研究結果發現 proximity 可 評估藥物抗癌潛力，日後或許可賦予藥物新的適應症，為癌症治療藥物提供新選擇。</description>
     </item>
     
   </channel>
